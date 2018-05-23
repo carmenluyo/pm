@@ -357,7 +357,8 @@ header {
       font-size: 20px;
       margin-top: 20px; }
     .info #myTabContent ul > li {
-      font-family: "StagSans-Book"; }
+      font-family: "StagSans-Book";
+      margin-bottom: 10px; }
 
 .teacher {
   background-color: #034788;
@@ -468,10 +469,11 @@ footer {
     padding: 7px 0;
     margin-bottom: 0px;
     font-family: "StagSans-Book";
-    font-size: 14px; }
+    font-size: 15px; }
 
 .partners {
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  margin-top: 2%; }
 
 .list-partners {
   display: -webkit-box;
@@ -481,7 +483,7 @@ footer {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
   .list-partners li img {
-    width: 100px; }
+    width: 90px; }
 
 .consultoria, .publicaciones {
   background-color: #034788;

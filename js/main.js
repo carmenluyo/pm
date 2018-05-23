@@ -85,7 +85,7 @@ for (var i = 0; i < cursos.length; i++) {
 }
 */
 
-jQuery('.grids-cursos .item').on('click', function(e)  {
+jQuery('.grids-cursos .item').on('mouseover', function(e)  {
     var currentAttrValue = jQuery(this).attr('data-full');
     // Show/Hide Tabs
     jQuery(currentAttrValue).show().siblings().hide();;
