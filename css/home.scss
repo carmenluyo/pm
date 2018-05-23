@@ -1,0 +1,251 @@
+/***************************************************
+AUTOR: carmen Luyo
+PROYECTO: PM CERTIFICA
+DESCRIPCIÓN: HOJA DE ESTILOS PARA EL HOME PAGE
+****************************************************/
+@import 'style.scss';
+
+.marg-top-20 {
+  margin-top: 20px;
+}
+.marg-bttm-20 {
+  margin-bottom: 20px !important;
+}
+
+.img-100 {
+  img {
+    width: 100%;
+  }
+}
+
+.img-50 {
+  img {
+    width: 50%;
+  }
+}
+
+footer {
+  padding: 1% 0 !important;
+  text-align: center;
+  width: 100%;
+  background-color: $colorweb;
+  color: #fff;
+
+  h3 {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+
+    span {
+      text-transform: none;
+    }
+  }
+}
+.center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.baner {
+  .ctn-home {
+    padding-left: 5%;
+
+    h2 {
+      font-size: 18px;
+      margin-top: 15%;
+      font-weight: 100;
+      font-family: "StagSans-Light";
+    }
+
+    h3 {
+      font-size: 36px;
+      font-weight: bold;
+      color: $colorweb;
+      font-family: "StagSans-Bold";
+    }
+
+    span {
+      font-size: 18px;
+      font-family: "StagSans-Book";
+
+    }
+
+    p {
+      font-size: 16px;
+      margin-top: 15px;
+      font-family: "StagSans-Book";
+
+    }
+  }
+}
+
+
+.img-banner {
+  img {
+    width: 100%;
+  }
+}
+
+//
+
+.grids-cursos {
+  h3 {
+    color: #040000;
+    text-align: right;
+    margin-right: 5%;
+    font-size: 16px;
+    margin-bottom: 2%;
+    font-family: "StagSans-Book";
+  }
+
+  .ctn-carousel-couses {
+    .item {
+      position: relative;
+
+      h3 {
+        position: absolute;
+        width: 100%;
+        bottom: 5px;
+        background-color: rgba(0, 0, 0, 0.54);
+        color: white;
+        text-align: center;
+        padding: 7px 0;
+        margin-bottom: 0px;
+        font-family: "StagSans-Book";
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+.partners {
+  margin-bottom: 5%;
+}
+
+.list-partners {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  li {
+    img{
+      width: 100px;
+    }
+  }
+}
+
+
+.consultoria, .publicaciones {
+  background-color: $colorweb;
+  color: #fff;
+  padding: 5% 0;
+}
+.consultoria, .publicaciones, .simuladores {
+
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "StagSans-Semibold";
+  }
+
+  p, ul > li {
+    font-family: "StagSans-Light";
+    font-size: 16px;
+  }
+
+  h4 {
+    font-family: "StagSans-Medium";
+  }
+}
+
+.img-simulador {
+  
+  img {
+    height: 67% !important;
+    width: auto !important;
+  }
+}
+
+.img-consultoria {
+  width: 80% !important;
+}
+.ctn-simulador {
+  text-align: right;
+  padding: 0 15%;
+}
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  max-width: none;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+/* img convertido a background img
+--------------------------------------- */   
+.fix-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  img {
+    @extend.img-cover;
+  }
+}
+
+.down-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+/*********** EMPIEZA HOME ****************/
+
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width:769px) {
+
+
+}
+
+
+
+.contac, .contact-landing {
+  
+  position: relative;
+  background-image: url(../images/contact-home.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.contact-landing  {
+  background-image: url(../images/contact-landing.png) !important;
+}
