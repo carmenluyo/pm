@@ -39,10 +39,6 @@
         loop:true,
         margin:10,
         stagePadding: 50,
-        autoplay:true,
-        autoplayTimeout:2000,
-        autoplayHoverPause:true,
-
         responsive: {
           0: {
             items: 1
