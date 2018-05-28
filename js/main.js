@@ -32,43 +32,29 @@
     //carouseles
 
     //grid courses carousel
+          
       var owl = $('.js-carousel-courses');
-        owl.owlCarousel({
-          stagePadding: 50,
-          margin: 10,
-          nav: true,
-          loop: true,
-          responsive: {
-            0: {
-              items: 1
-            },
-            600: {
-              items: 3
-            },
-            1000: {
-              items: 5
-            }
+      owl.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        stagePadding: 50,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
           }
-        })
-      
-      //carousel partner
-      var owl = $('.js-carousel-partners');
-        owl.owlCarousel({
-          items: 4,
-          loop: true,
-          margin: 10,
-          autoplay: true,
-          autoplayTimeout: 1000,
-          autoplayHoverPause: true
-        });
-        $('.play').on('click', function() {
-          owl.trigger('play.owl.autoplay', [1000])
-        })
-        $('.stop').on('click', function() {
-          owl.trigger('stop.owl.autoplay')
-        })
-
-
+        }
+    });
 });
 
 
@@ -85,7 +71,7 @@ for (var i = 0; i < cursos.length; i++) {
 }
 */
 
-jQuery('.grids-cursos .item').on('mouseover', function(e)  {
+jQuery('.grids-cursos .item').on('click', function(e)  {
     var currentAttrValue = jQuery(this).attr('data-full');
     // Show/Hide Tabs
     jQuery(currentAttrValue).show().siblings().hide();;
