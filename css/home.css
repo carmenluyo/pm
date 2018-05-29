@@ -557,14 +557,10 @@ footer {
   animation: bounce 2s infinite; }
 
 /*********** EMPIEZA HOME ****************/
-.contac, .contact-landing {
-  position: relative;
-  background-image: url(../images/contact-home.png);
+.contact-landing {
+  background-image: url(../images/contact-landing.png) !important;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%; }
-
-.contact-landing {
-  background-image: url(../images/contact-landing.png) !important; }
