@@ -142,7 +142,12 @@ footer {
   color: #fff;
   padding: 5% 0;
 }
+
 .consultoria, .publicaciones, .simuladores {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   h3 {
     font-size: 30px;
@@ -154,6 +159,8 @@ footer {
   p, ul > li {
     font-family: "StagSans-Light";
     font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
   }
 
   h4 {
@@ -161,10 +168,18 @@ footer {
   }
 }
 
+.ctn-consultoria {
+  p {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }
+}
+
 .img-simulador {
   
   img {
-    height: 67% !important;
+    height: 100% !important;
     width: auto !important;
   }
 }

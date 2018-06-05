@@ -490,21 +490,37 @@ footer {
   color: #fff;
   padding: 5% 0; }
 
-.consultoria h3, .publicaciones h3, .simuladores h3 {
-  font-size: 30px;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "StagSans-Semibold"; }
+.consultoria, .publicaciones, .simuladores {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .consultoria h3, .publicaciones h3, .simuladores h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "StagSans-Semibold"; }
+  .consultoria p, .consultoria ul > li, .publicaciones p, .publicaciones ul > li, .simuladores p, .simuladores ul > li {
+    font-family: "StagSans-Light";
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px; }
+  .consultoria h4, .publicaciones h4, .simuladores h4 {
+    font-family: "StagSans-Medium"; }
 
-.consultoria p, .consultoria ul > li, .publicaciones p, .publicaciones ul > li, .simuladores p, .simuladores ul > li {
-  font-family: "StagSans-Light";
-  font-size: 16px; }
-
-.consultoria h4, .publicaciones h4, .simuladores h4 {
-  font-family: "StagSans-Medium"; }
+.ctn-consultoria p {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  letter-spacing: 1px; }
 
 .img-simulador img {
-  height: 67% !important;
+  height: 100% !important;
   width: auto !important; }
 
 .img-consultoria {
