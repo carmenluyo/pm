@@ -187,6 +187,9 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  li{
+    max-width: 200px;
+  }
 }
 .tab-pane{
   img{

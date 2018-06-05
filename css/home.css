@@ -226,6 +226,8 @@ footer h3 span { text-transform: none; }
 
 .pdus { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
 
+.pdus li { max-width: 200px; }
+
 .tab-pane img { max-width: 100%; }
 
 .img-consultoria { width: 80% !important; }
