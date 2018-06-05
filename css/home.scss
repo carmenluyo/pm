@@ -183,6 +183,16 @@ footer {
     width:100% !important;
   }
 }
+.pdus{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.tab-pane{
+  img{
+    max-width: 100%;
+  }
+}
 
 .img-consultoria {
   width: 80% !important;

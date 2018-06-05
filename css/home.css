@@ -224,6 +224,10 @@ footer h3 span { text-transform: none; }
 
 .img-simulador img { height: 100% !important; width: 100% !important; }
 
+.pdus { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
+
+.tab-pane img { max-width: 100%; }
+
 .img-consultoria { width: 80% !important; }
 
 .ctn-simulador { text-align: right; padding: 0 15%; }
