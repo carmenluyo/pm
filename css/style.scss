@@ -203,6 +203,7 @@ header {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.32);
       z-index: 1002;
       @include transition(right 0.45s ease);
+
       ul {
         list-style-type: none;
         padding: 0;
@@ -508,4 +509,34 @@ footer {
     font-family: "StagSans-Book";
   }
 
+}
+.owl-carousel:hover .owl-nav {
+    display: block;
+    @include transition(0.5s);
+}
+
+.owl-nav {
+  display: none;
+  @include transition(0.5s);
+  
+  > button {
+    background:rgba(3, 71, 136, 0.6392156862745098) !important;
+    width: 25px;
+    color: white !important;
+    font-size: 40px !important;
+    line-height: 138px !important;
+    margin: 0;
+    position: absolute;
+    top: 0;
+
+  }
+
+  .owl-prev {
+    left: 50px;
+    padding-left: 20px;
+  }
+  .owl-next {
+    right: 0;
+    padding-right: 20px;
+  }
 }

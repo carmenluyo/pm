@@ -1,44 +1,16 @@
  $(document).ready(function(){
 
-
- 	$('.menu-mobile').click(function(event){
-        event.preventDefault();
-        $('.menu-responsive').addClass('active-menu');
-        $('.r-overlay').addClass('active-overlay');
-      }); 
-
-      // js submenu 2do nivel
-      function cerrar_submenu(){
-        $('.menu-responsive .u-submenu').stop(false).slideUp();
-      }
-
-    // funcion  para cerrar menu responsive 
-    function cerrar_nav() {
-      $('.menu-responsive').removeClass('active-menu');
-      $('.r-overlay').removeClass('active-overlay');
-    };
-
-    $('.r-overlay').click(function() {
-      cerrar_nav();
-      cerrar_submenu();
-    });
-
-    $('.close-nav').click(function() {
-      cerrar_nav();
-      cerrar_submenu();
-    });
-
-
     //carouseles
 
     //grid courses carousel
-          
-      var owl = $('.js-carousel-courses');
-      owl.owlCarousel({
+      $('.js-carousel-courses').owlCarousel({
         items:4,
         loop:false,
         margin:10,
         stagePadding: 50,
+        nav: true,
+        navigation : true,
+        navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
         responsive: {
           0: {
             items: 1
@@ -50,8 +22,11 @@
             items: 5
           }
         }
-    });
+       });
+
+        
 });
+
 
 
 ///

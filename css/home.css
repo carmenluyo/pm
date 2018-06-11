@@ -170,6 +170,16 @@ footer .row { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit
 
 footer h3 { font-family: "StagSans-Book"; }
 
+.owl-carousel:hover .owl-nav { display: block; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+
+.owl-nav { display: none; -webkit-transition: 0.5s; -moz-transition: 0.5s; -ms-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+
+.owl-nav > button { background: rgba(3, 71, 136, 0.639216) !important; width: 25px; color: white !important; font-size: 40px !important; line-height: 138px !important; margin: 0; position: absolute; top: 0; }
+
+.owl-nav .owl-prev { left: 50px; padding-left: 20px; }
+
+.owl-nav .owl-next { right: 0; padding-right: 20px; }
+
 .marg-top-20 { margin-top: 20px; }
 
 .marg-bttm-20 { margin-bottom: 20px !important; }
@@ -200,7 +210,7 @@ footer h3 span { text-transform: none; }
 
 .grids-cursos h3 { color: #040000; text-align: right; margin-right: 5%; font-size: 16px; margin-bottom: 2%; font-family: "StagSans-Book"; }
 
-.grids-cursos .ctn-carousel-couses .item { position: relative; }
+.grids-cursos .ctn-carousel-couses .item { position: relative; margin-bottom: 20px; }
 
 .grids-cursos .ctn-carousel-couses .item h3 { position: absolute; width: 100%; bottom: 5px; background-color: rgba(0, 0, 0, 0.54); color: white; text-align: center; padding: 7px 0; margin-bottom: 0px; font-family: "StagSans-Book"; font-size: 15px; }
 
