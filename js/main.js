@@ -36,7 +36,7 @@
       var owl = $('.js-carousel-courses');
       owl.owlCarousel({
         items:4,
-        loop:true,
+        loop:false,
         margin:10,
         stagePadding: 50,
         responsive: {

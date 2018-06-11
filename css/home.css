@@ -140,7 +140,7 @@ header .container222 .active-menu { right: 0; }
 
 .diplomado .ctn-diplomado p { font-family: "StagSans-Book"; font-size: 25px; }
 
-.info { padding: 5% 0; }
+.info { padding: 5% 0; height: 100%; }
 
 .info ul#myTab { background-color: #ffff; border: none; float: right; }
 
